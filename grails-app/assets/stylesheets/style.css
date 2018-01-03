@@ -1,0 +1,809 @@
+/*Common START*/
+.center {
+    text-align: center;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    min-height: 500px;
+    position: relative;
+}
+
+.heading_1 {
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #00CCFF;
+}
+
+.heading_2 {
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #999999;
+}
+
+.heading_3 {
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #999999;
+}
+.heading_4 {
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #00CCFF;
+}
+
+/*html { overflow-y: hidden; }*/
+.minHeight{
+    min-height:435px !important;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+
+
+/*Common END*/
+
+
+/*HEADER START*/
+
+span.welcomeText {
+    font-weight: normal;
+    line-height: 1;
+    color: #777;
+}
+
+.navbar-inverse {
+    background-color: #fafafa;
+    border-color: transparent;
+}
+span.titleMountSinai {
+    font-size: 18px;
+}
+
+.nameRegion {
+    margin-top: 20px;
+}
+
+
+
+/*HEADER END*/
+
+
+/*FOOTER START*/
+
+.copyrights.col-md-4 {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+}
+
+footer {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #f8f8f8;
+}
+
+a.contactUsText {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+}
+
+
+
+
+/*FOOTER END*/
+
+
+/*assign_form.html    START*/
+
+.buttonSection {
+    margin-top: 30px;
+}
+
+label.labelArea {
+    width: 300px;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #00CCFF;
+    font-size: 14px;
+}
+.export{
+    color: #00CCFF;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Arial Bold', 'Arial';
+}
+
+button.btn.btn-primary {
+    margin: 1px;
+}
+
+/*#formStatus_unassigned{
+    margin:auto;
+}*/
+
+#qualityLead{
+    margin:inherit;
+}
+.row.center {
+    margin-top: 50px;
+}
+
+p.heading_1 {
+    margin-top: 20px;
+}
+
+label#labelFont {
+    font-size: 13px;
+}
+
+label#firstDate,
+label#thirdDate,
+label#patientMRN,
+label#patientName
+{
+    font-size: 12px;
+}
+
+table {
+    text-align: center;
+}
+
+.margin {
+    margin-top: 5px;
+}
+
+th {
+    text-align: center
+}
+
+.text {
+    margin-left: 15px;
+}
+
+.loadText {
+    margin-right: 15px;
+}
+
+.table>thead>tr>th {
+    vertical-align: middle;
+}
+
+
+
+/*assign_form.html    END*/
+
+
+/*assign_mshs_employees_to_quality_lead  START*/
+
+label#labelAreaAssignLead {
+    background: #ded1d1;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/*assign_mshs_employees_to_quality_lead  END*/
+
+
+/*hospital_quality_department___admin__screen    START*/
+
+.title {
+    font-weight: bold;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.divContent div {
+    margin-bottom: 10px;
+}
+
+button.btn.btn-primary.glyphicon.glyphicon-info-sign {
+    margin-right: 30px;
+}
+
+.part1 {
+
+    margin-bottom: 10px;
+}
+
+tr {
+    margin-left: 15px;
+}
+
+span.titleName {
+    color: black;
+}
+
+span.loadInfo.fright {
+    font-weight: bold;
+}
+
+input.datePicker {
+    width: 80px;
+}
+
+button#watch-Display {
+    margin-right: 40px;
+}
+
+
+/*below one was applied only to this page. Check for other pages as well*/
+
+nav.navbar.navbar-inverse {
+    margin-bottom: 0px;
+}
+button.btn.btn-primary.btnQualityLead {
+    margin: 0;
+}
+label#patientMRN,
+label#patientName {
+    padding-top: 10px;
+    font-weight: normal;
+}
+button.btn.btn-primary.btnAdminScreen {
+    margin: 0;
+
+}
+.tableAdminScreen tr td span {
+    line-height: 20px;
+}
+.headingadmin {
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #00CCFF;
+}
+
+
+/*hospital_quality_department___admin__screen    END*/
+
+
+
+
+/*Instruction_screen      START*/
+.reassignFormLabel{
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-size: 14px;
+    color: #00CCFF;
+
+}
+.instructionScreenContent.center {
+    margin-top: 30px;
+}
+
+
+/*Instruction_screen      END*/
+
+
+
+/*mortality_review_form__contributor_   START*/
+
+.innertop_div {
+    height:4.7em;
+    width: 10.1%;
+    margin-right: 1%;
+    /* padding: 0px; */
+    color: #FFF;
+    font-size: 92%;
+    background-color: rgba(204, 204, 204, 1);
+    font-weight: bold;
+    cursor: pointer;
+}
+.innertop_div>a {
+
+    font-size: 12px;
+}
+.contentRegion {
+    margin-top: 20px;
+}
+td label {
+    font-weight: normal;
+}
+
+.personalInfoTable {
+    border: 1px solid black;
+    width: 100%;
+    background: #a59e9e;
+    text-align: left;
+    font-size: small;
+}
+
+table.personalInfoTable tr td {
+    border-bottom: 1px solid black;
+}
+table#persInfoTable {
+    text-align: left;
+    font-size: inherit;
+}
+.textPadding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.clicked {
+    background-color: rgba(0, 204, 255, 1);
+}
+
+button.btn.btn-primary.btnMortalityPage {
+    margin: 0;
+}
+
+.removeBold {
+    font-weight: normal !important;
+}
+
+.header.row {
+    background: #fcfcfc;
+    border-bottom: 1px solid #f5f2f2;
+    margin-bottom: 50px;
+}
+.vote-result {
+    display: none;
+}
+
+.vote-result.first {
+    display: block;
+}
+
+.off {
+    display: none;
+}
+
+.checkbox-with-input span {
+    vertical-align: top;
+}
+
+.checkbox-with-input input[type="text"] {
+    position: relative;
+    top: -5px;
+}
+
+
+label.checkbox-inline.pulmonaryCheckbox {
+    top: -7px;
+}
+
+#patientInfo,
+#majorComorbidities,
+#complicationAcquiredHospital,
+#majorSupportiveInterventions,
+#majorInvasiveInterventions,
+#procedureRelatedComplication,
+#contributingFactors {
+    min-height: 500px;
+}
+input.inputFormControl {
+    margin-left: 10px;
+}
+.col-md-6.marginLeft.MortalityPage {
+    margin-left: 15px;
+}
+
+
+.innertop_div.col-md-1.star {
+    height: 60px;
+    text-align: center;
+    /* border: 2px dashed #f69c55; */
+}
+
+.innertop_div.col-md-1.star span {
+    vertical-align: middle;
+    line-height: normal;
+}
+.textTitle{
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #00CCFF;
+}
+
+button.btn.btn-primary.btnQualityLead {
+    margin: 0;
+}
+
+/*mortality_review_form__contributor_   END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*quality_lead page    START*/
+span.textTitle.fright {
+    margin-right: 115px;
+}
+
+tr.tableRow td,th{
+    text-align: center;
+}
+
+.tableQlead tr td span {
+    line-height: 20px;
+}
+
+/*quality_lead page    END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RUN_REPORT  START*/
+
+.runReportSidebar.col-md-3 {
+    min-height: 500px;
+    width: 250px;
+    bottom: 0;
+    background: rgba(0, 204, 255, 1);
+}
+
+
+.runReportContentArea.col-md-9 {
+    margin-left: 250px;
+}
+
+.runReportSidebar.col-md-3 a {
+    text-decoration: none;
+    color: white;
+}
+.fleft.star {
+    margin-top: 15px;
+}
+.pageTitle {
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+.time_to_completionArea * {
+    margin-right: 20px;
+}
+form.form-inline.output button {
+    margin-left: 30px;
+}
+form.form-inline.output {
+    margin-top: 20px;
+}
+.marginbottom {
+    margin-bottom: 17px;
+}
+.fleft.dod {
+    margin-left: 12px;
+}
+table.tableRun_report td {
+    padding: 5px 5px 5px 0px;
+}
+#showreport
+{
+    width: 400px;height: 100px;border: 1px solid black;
+}
+
+div#showreport {
+    margin: 100px 0px 0px 225px;
+}
+
+label#firstDateRun_report {
+    padding: 0px 20px 0px 0px;
+}
+label#thirdDateRun_report {
+    padding: 0px 20px 0px 0px;
+}
+.dropdown {
+    font-size: 12px;
+}
+.labelClass {
+    font-size: 12px;
+}
+.col-md-6 .labelClass{
+    font-size: 12px;
+}
+/*RUN_REPORT  END*/
+
+
+
+
+
+div.footer {
+    top: 1em;
+    background: #F8F8F8;
+    position: relative;
+    width: 100%;
+    height: 4em;
+    bottom: 0;
+    clear: both;
+    padding: 5px;
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 1px solid #e5e5e5;
+}
+
+div.footer a {
+    color: #999 !important;
+}
+
+div.footer a:hover,a:visited{
+    text-decoration: none;
+}
+
+.btn-primary a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none !important;
+}
+
+div.main-header {
+    height: 90px;
+}
+
+div.main-body {
+    min-height: 10em;
+    padding: 3em 0 0 0.5em;
+    margin-right: 0.5em;
+    font: 11.5px verdana, arial, helvetica, sans-serif;
+}
+
+.container-fluid{
+    padding: 0 0 0 0;
+}
+
+.heading_2 p {
+    margin: 0 0 2px 0;
+}
+
+.processing {
+    width: 15%;
+    height: 125px;
+    overflow: unset;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    opacity: 1;
+    z-index: 10001;
+    border-radius: 15px;
+    background: #222222 url(../images/spinner2.gif) no-repeat center 10px;
+    font-weight: bold;
+}
+
+.processing p {
+    margin-top: 63px;
+    color: #fff;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.overlay {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+.required {
+    font-family:'Arial Bold', 'Arial';
+    font-weight:700;
+    color:#FF0000;
+    vertical-align: top;
+}
+
+.assignEmplToQL{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #00CCFF;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin-top: 0px !important;
+}
+
+.leftAlign {
+    text-align: left !important;
+}
+
+.table-responsive tbody tr {
+    cursor: pointer;
+}
+
+.text_area{
+    resize: none;
+    width: 400px;
+    height: 100px;
+}
+.error{
+
+    border : solid 1px red;
+}
+.errorMsg{
+    color: red;
+    /*margin-left: 12px;*/
+}
+
+#dialog {
+    display:none;
+}
+
+.margin_top_-10{
+    margin-top: -10px;
+}
+
+#align ,#align1{
+    float: right;
+    margin-top: -53px;
+}
+.errorDiv{
+    margin-top: 5px;
+    padding-left: 10px;
+    border:solid red 1px;
+
+}
+.formMessage{
+    color:#00CCFF;
+}
+
+
+.checkboxTop {
+    vertical-align: top;
+    font-weight: unset;
+}
+.floatToRight{
+    float: right;
+}
+.inner_div row{
+    min-height: 180px;
+}
+.adminCommentSuccessMsg{
+    color: green;
+    border: solid green 1px;
+}
+.warningMsg {
+    border: solid red 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#666666;
+}
+.li_statusHistoryFormat{
+    font-size: 13px
+}
+.span_statusHistoryFormat{
+    margin-left: 10%;
+    font-size: 12px;
+}
+
+.runReportLink{
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.runReportIframe{
+    width: 110%;
+    height: 800px;
+}
+
+/**
+media styling for ipad
+ */
+@media screen and (max-width: 1240px) {
+    @media screen and (min-width: 765px) {
+        .innertop_div {
+            width: 15%;
+            height: 5em;
+            margin-top: 1px;
+            margin-bottom: 2px;
+        }
+
+        div.main-header {
+            height: 120px;
+        }
+    }
+}
+::-webkit-input-placeholder { /* Chrome */
+    color: gray;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: gray;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: gray;
+    opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: gray;
+    opacity: 1;
+}
+
+#employeeResultDialog .modal-dialog{
+    overflow-y: initial !important
+}
+
+#employeeResultDialog .modal-body{
+    max-height: 500px;
+    overflow-y: auto;
+}
+.tableAlign{
+    width: 100%;
+    max-width: 100%;
+}
