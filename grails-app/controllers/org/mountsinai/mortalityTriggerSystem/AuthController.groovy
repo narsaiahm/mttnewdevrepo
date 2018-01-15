@@ -75,7 +75,7 @@ class AuthController {
             }
         }
     }
-
+//test comment added
     private void clearSessionData() {
         session.getAttributeNames().each {
             session[it] = null
